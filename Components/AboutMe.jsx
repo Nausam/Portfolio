@@ -6,11 +6,6 @@ const AboutMe = () => {
       <div className="bg-white top-28 relative dark:bg-[#212121] shadow-custom-sm rounded-xl max-w-2xl lg:max-w-4xl lg:mx-auto mx-4 md:mx-auto sm:mx-auto lg:px-0 ">
         <div className="p-2 lg:mx-4">
           <div className="lg:p-6 p-3">
-            <div className="flex justify-between w-full">
-              {/* <h1>Full-Stack Developer</h1>
-              <h1>Available</h1> */}
-            </div>
-
             <div className="flex flex-col lg:mt-0 mt-10 w-full items-center justify-center md:flex-row text-center md:text-left">
               <div className="flex flex-1 flex-col mt-5 max-w-xl">
                 <h1 className="font-bold text-3xl md:text-3xl lg:text-4xl">
@@ -27,11 +22,11 @@ const AboutMe = () => {
                 </p>
               </div>
 
-              <div className="w-[250px] h-[250px] p-4 m-2 border border-neutral-200 dark:border-neutral-700 rounded-full shadow-md drop-shadow-md dark:bg-[#2c2c2c] flex items-center justify-center mt-10 md:mt-0">
+              <div className="p-4 m-2 border border-neutral-200 dark:border-neutral-700 rounded-full shadow-md drop-shadow-md dark:bg-[#2c2c2c] flex items-center justify-center mt-10 md:mt-0">
                 <Image
                   alt="Profile"
-                  width={300}
-                  height={300}
+                  width={250}
+                  height={250}
                   src="/images/rocket.png"
                   className="rounded-full  md:mt-0"
                 />

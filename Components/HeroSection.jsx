@@ -14,12 +14,12 @@ const HeroSection = () => {
               <h1>Available</h1>
             </div>
 
-            <div className="flex flex-col lg:mt-5 mt-10 w-full items-center md:flex-row text-center md:text-left">
-              <div className="w-[250px] h-[250px] p-4 m-2 border border-neutral-200 dark:border-neutral-700 rounded-full shadow-md drop-shadow-md dark:bg-[#2c2c2c] flex items-center justify-center">
+            <div className="flex gap-10 flex-col lg:mt-5 mt-10 w-full items-center md:flex-row text-center md:text-left">
+              <div className="p-4 m-2 border border-neutral-200 dark:border-neutral-700 rounded-full shadow-md drop-shadow-md dark:bg-[#2c2c2c] flex items-center justify-center">
                 <Image
                   alt="Profile"
-                  width={300}
-                  height={300}
+                  width={250}
+                  height={250}
                   src="/images/me.jpg"
                   className="rounded-full md:mt-0"
                 />

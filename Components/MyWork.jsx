@@ -7,11 +7,6 @@ const MyWork = () => {
       <div className="bg-white top-32 relative dark:bg-[#212121] shadow-custom-sm rounded-xl max-w-2xl lg:max-w-4xl lg:mx-auto mx-4 md:mx-auto sm:mx-auto lg:px-0 ">
         <div className="p-2 lg:mx-4">
           <div className="lg:p-6 p-3">
-            <div className="flex justify-between w-full">
-              {/* <h1>Full-Stack Developer</h1>
-          <h1>Available</h1> */}
-            </div>
-
             <div className="flex flex-col lg:mt-0 mt-10 w-full items-center md:flex-row text-center md:text-left">
               <div className="flex flex-1 flex-col mt-5 max-w-xl">
                 <h1 className="font-bold text-3xl md:text-3xl lg:text-4xl">
@@ -30,11 +25,13 @@ const MyWork = () => {
             </div>
 
             <div className="lg:mt-8 md:mt-8 mt-14 bg-[#F6f8FA] dark:bg-custom_gray rounded-xl p-6">
-              <h2 className="mb-5 text-lg text-gray-500 dark:text-gray-400">
-                My Teck Stack
+              <h2 className="mb-5 text-lg text-gray-500 dark:text-gray-400 tracking-wider">
+                Projects
               </h2>
-              <div className="bg-white dark:bg-[#373737] mt-3 mb-4 rounded-xl dark:border-neutral-600 shadow-md dark:border p-7">
-                <div className="flex md:justify-between flex-wrap justify-center gap-10"></div>
+              <div className="flex flex-wrap justify-between gap-5 bg-white dark:bg-[#373737] mt-3 mb-4 rounded-xl dark:border-neutral-600 shadow-md dark:border p-7 tracking-wider">
+                <div>Cosmo Guard</div>
+                <div>Employee Management</div>
+                <div>Netflix Clone</div>
               </div>
             </div>
 
