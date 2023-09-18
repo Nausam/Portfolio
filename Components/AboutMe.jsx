@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const AboutMe = () => {
   return (
-    <section id="about-me" className="w-full rounded-lg">
+    <section id="about" className="w-full rounded-lg">
       <div className="bg-white top-28 relative dark:bg-[#212121] shadow-custom-sm rounded-xl max-w-2xl lg:max-w-4xl lg:mx-auto mx-4 md:mx-auto sm:mx-auto lg:px-0 ">
         <div className="p-2 lg:mx-4">
           <div className="lg:p-6 p-3">
@@ -12,11 +12,11 @@ const AboutMe = () => {
             </div>
 
             <div className="flex flex-col lg:mt-0 mt-10 w-full items-center justify-center md:flex-row text-center md:text-left">
-              <div className="flex flex-1 flex-col mt-5 pr-10 md:pl-0 pl-10">
+              <div className="flex flex-1 flex-col mt-5 max-w-xl">
                 <h1 className="font-bold text-3xl md:text-3xl lg:text-4xl">
                   About Me
                 </h1>
-                <p className="mt-6 tracking-wider md:text-lg  text-sm text-gray-500 dark:text-gray-400">
+                <p className="mt-6 tracking-wider md:text-lg text-sm text-gray-500 dark:text-gray-400">
                   As an avid space enthusiast and a dedicated coder, I've merged
                   my two passions to create captivating digital experiences.
                   I've traversed the frontiers of both frontend and backend

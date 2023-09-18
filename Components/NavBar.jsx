@@ -10,19 +10,19 @@ const NavBar = () => {
           <div className="flex space-x-3 items-center ">
             <Link
               className="custom_btn text-gray-500 dark:text-gray-300"
-              href="/"
+              href="#home"
             >
               Home
             </Link>
             <Link
               className="custom_btn text-gray-500 dark:text-gray-300"
-              href="/"
+              href="#about"
             >
               About
             </Link>
             <Link
               className="custom_btn text-gray-500 dark:text-gray-300"
-              href="/"
+              href="#projects"
             >
               Projects
             </Link>

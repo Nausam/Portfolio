@@ -3,7 +3,7 @@ import { Card } from "./Card";
 
 const MyWork = () => {
   return (
-    <section className="w-full rounded-lg">
+    <section id="projects" className="w-full rounded-lg">
       <div className="bg-white top-32 relative dark:bg-[#212121] shadow-custom-sm rounded-xl max-w-2xl lg:max-w-4xl lg:mx-auto mx-4 md:mx-auto sm:mx-auto lg:px-0 ">
         <div className="p-2 lg:mx-4">
           <div className="lg:p-6 p-3">
@@ -13,7 +13,7 @@ const MyWork = () => {
             </div>
 
             <div className="flex flex-col lg:mt-0 mt-10 w-full items-center md:flex-row text-center md:text-left">
-              <div className="flex flex-1 flex-col mt-5 pr-10 md:pl-0 pl-10">
+              <div className="flex flex-1 flex-col mt-5 max-w-xl">
                 <h1 className="font-bold text-3xl md:text-3xl lg:text-4xl">
                   My Creations
                 </h1>

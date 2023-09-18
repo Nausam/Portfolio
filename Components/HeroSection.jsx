@@ -4,7 +4,7 @@ import Design from "./Design";
 
 const HeroSection = () => {
   return (
-    <section className="w-full rounded-lg">
+    <section id="home" className="w-full rounded-lg">
       <Design />
       <div className="bg-white top-24 relative dark:bg-[#212121] shadow-custom-sm rounded-xl max-w-2xl lg:max-w-4xl lg:mx-auto mx-4 md:mx-auto sm:mx-auto lg:px-0 ">
         <div className="p-2 lg:mx-4">
@@ -25,8 +25,8 @@ const HeroSection = () => {
                 />
               </div>
 
-              <div className="flex flex-1 flex-col mt-5 ml-10 mr-10">
-                <h1 className="font-bold text-3xl md:text-3xl lg:text-4xl md:mt-0 mt-5">
+              <div className="flex flex-1 flex-col mt-5 max-w-xl">
+                <h1 className="font-bold text-3xl md:text-3xl lg:text-5xl md:mt-0 mt-5">
                   Hussain Nausam
                 </h1>
                 <p className="mt-6 tracking-wider md:text-lg text-sm text-gray-500 dark:text-gray-400">

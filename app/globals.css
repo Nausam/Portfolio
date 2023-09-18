@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 .gray_btn {
   @apply dark:border border-neutral-700/30 p-1 px-3 rounded-lg shadow-custom-sm dark:shadow-md;
 }
