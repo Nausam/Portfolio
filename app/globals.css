@@ -2,26 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.gray_btn {
+  @apply dark:border border-neutral-700/30 p-1 px-3 rounded-lg shadow-custom-sm dark:shadow-md;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.custom_btn {
+  @apply border-neutral-300 dark:border-neutral-700 bg-white dark:bg-[#373737] shadow-md border w-fit h-8 px-2 rounded-md flex items-center gap-x-1;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.custom_btn_lg {
+  @apply border-neutral-300 dark:border-neutral-700 bg-white dark:bg-[#373737] shadow-md border w-fit h-10 px-6 rounded-md flex items-center gap-x-1;
+}
+
+.glassmorphism {
+  @apply h-full w-full bg-purple-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100;
 }
