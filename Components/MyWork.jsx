@@ -12,7 +12,7 @@ const MyWork = () => {
                 <h1 className="font-bold text-3xl md:text-3xl lg:text-4xl tracking-wider">
                   Cosmic Contributions
                 </h1>
-                <p className="mt-6 tracking-wider md:text-lg  text-sm text-gray-500 dark:text-gray-400">
+                <p className="mt-6 tracking-wider lg:text-lg md:text-base text-sm text-gray-500 dark:text-gray-400">
                   As a full-stack web developer, I've logged countless
                   light-years in the universe of technology. I've mastered the
                   art of harmonizing frontend elegance with backend robustness,

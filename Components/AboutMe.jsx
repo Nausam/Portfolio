@@ -21,7 +21,7 @@ const AboutMe = () => {
                 <h1 className="font-bold text-3xl md:text-3xl lg:text-4xl md:text-start text-center tracking-wider">
                   Stellar Origin
                 </h1>
-                <p className="mt-6 tracking-wider md:text-lg text-sm text-gray-500 dark:text-gray-400 md:text-start text-center">
+                <p className="mt-6 tracking-wider lg:text-lg md:text-base text-sm text-gray-500 dark:text-gray-400 md:text-start text-center">
                   As an avid space enthusiast and a dedicated coder, I've merged
                   my two passions to create captivating digital experiences.
                   I've traversed the frontiers of both frontend and backend
@@ -37,7 +37,7 @@ const AboutMe = () => {
               </div>
             </div>
 
-            <div className="w-full flex gap-3 justify-center items-center sm:justify-start mt-20">
+            <div className="w-full flex gap-3 justify-center items-center sm:justify-start mt-10">
               <CustomButton href="#" text="Contact" />
               <CustomButton href="#" text="Download CV" />
             </div>
@@ -47,7 +47,7 @@ const AboutMe = () => {
                 <h1 className="font-bold text-3xl md:text-3xl lg:text-4xl md:text-start text-center tracking-wider">
                   Mission Statement
                 </h1>
-                <p className="mt-6 tracking-wider md:text-lg text-sm text-gray-500 dark:text-gray-400 md:text-start text-center">
+                <p className="mt-6 tracking-wider lg:text-lg md:text-base text-sm text-gray-500 dark:text-gray-400 md:text-start text-center">
                   My mission? To craft digital constellations of code that
                   inspire awe and wonder. To journey through the dark matter of
                   challenges and emerge with innovative solutions that shine
