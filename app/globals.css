@@ -15,9 +15,13 @@ html {
 }
 
 .custom_btn_lg {
-  @apply border-neutral-300 dark:border-neutral-700 bg-white dark:bg-[#373737] shadow-md border w-fit h-10 px-6 rounded-md flex items-center gap-x-1;
+  @apply bg-white dark:bg-custom_purple shadow-md border w-fit h-10 px-3 sm:h-10 sm:px-6 rounded-md flex items-center gap-x-1 hover:border-purple-300 border-purple-300 dark:border-purple-200 transition-all duration-300;
 }
 
 .glassmorphism {
   @apply h-full w-full bg-purple-200 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100;
+}
+
+.purple_gradient {
+  @apply from-violet-500 via-fuchsia-500 to-purple-500 bg-gradient-to-r bg-clip-text text-transparent;
 }

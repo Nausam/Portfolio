@@ -15,6 +15,7 @@ module.exports = {
       },
       colors: {
         custom_gray: "#212121",
+        custom_purple: "#ae00ff",
       },
       boxShadow: {
         "custom-sm": "0 0 6px rgba(0, 0, 0, 0.2)",
