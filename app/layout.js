@@ -5,8 +5,8 @@ import Providers from "./providers";
 const inter = Signika({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Nausam | Portfolio",
-  description: "My Full-Stack Portfolio",
+  title: "Portfolio | Nausam",
+  description: "Full-Stack Developer Portfolio",
 };
 
 export default function RootLayout({ children }) {
