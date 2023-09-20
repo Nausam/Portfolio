@@ -5,6 +5,8 @@ import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 import { loadSlim } from "tsparticles-slim"; // if you are going to use `loadSlim`, install the "tsparticles-slim" package too.
 
+import { motion } from "framer-motion";
+
 const Design = () => {
   const particlesInit = useCallback(async (engine) => {
     console.log(engine);
@@ -12,7 +14,7 @@ const Design = () => {
     // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
     // starting from v2 you can add only the features you need reducing the bundle size
     //await loadFull(engine);
-    await loadSlim(engine);
+    await loadFull(engine);
   }, []);
 
   const particlesLoaded = useCallback(async (container) => {
@@ -20,7 +22,12 @@ const Design = () => {
   }, []);
 
   return (
-    <div className="max-w-[700px] overflow-hidden">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 5 }}
+      className="overflow-hidden -z-50"
+    >
       <Particles
         id="tsparticles"
         init={particlesInit}
@@ -95,7 +102,7 @@ const Design = () => {
           detectRetina: true,
         }}
       />
-    </div>
+    </motion.div>
   );
 };
 
