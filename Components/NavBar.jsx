@@ -21,11 +21,17 @@ const NavBar = () => {
             <Link className="text-gray-500 dark:text-gray-300" href="#home">
               Home
             </Link>
+
             <Link className="text-gray-500 dark:text-gray-300" href="#about">
               About
             </Link>
+
             <Link className="text-gray-500 dark:text-gray-300" href="#projects">
               Projects
+            </Link>
+
+            <Link className="text-gray-500 dark:text-gray-300" href="#contact">
+              Contact
             </Link>
           </div>
           <div className="flex items-center gap-x-3"></div>

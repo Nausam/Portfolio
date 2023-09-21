@@ -1,5 +1,10 @@
 import Image from "next/image";
-import { Card } from "./Card";
+import Link from "next/link";
+
+import LinkButton from "./LinkButton";
+import Projects from "./Projects/CosmoGuard";
+import CosmoGuard from "./Projects/CosmoGuard";
+import EmployeeDashboard from "./Projects/EmployeeDashboard";
 
 const MyWork = () => {
   return (
@@ -23,21 +28,8 @@ const MyWork = () => {
               </div>
             </div>
 
-            <div className="lg:mt-8 md:mt-8 mt-14  rounded-xl p-6">
-              <h2 className="mb-5 text-lg text-gray-500 dark:text-gray-400 tracking-wider">
-                Projects
-              </h2>
-              <div className="flex flex-wrap justify-between gap-5 bg-white dark:bg-transparent mt-3 mb-4 rounded-xl dark:border-neutral-800 shadow-md dark:border p-7 tracking-wider">
-                <div>Cosmo Guard</div>
-                <div>Employee Management</div>
-                <div>Netflix Clone</div>
-              </div>
-            </div>
-
-            {/* <div className="w-full flex gap-3 justify-center items-center md:justify-start">
-      <button className="custom_btn_lg">Contact</button>
-      <button className="custom_btn_lg">Download CV</button>
-    </div> */}
+            <CosmoGuard />
+            <EmployeeDashboard />
           </div>
         </div>
       </div>

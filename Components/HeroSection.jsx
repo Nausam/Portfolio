@@ -96,14 +96,14 @@ const HeroSection = () => {
               </div>
             </div>
 
-            <div className="mt-6 rounded-xl p-3">
+            <div className="mt-14 rounded-xl p-3">
               <motion.h2
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
                 className="md:text-start text-center text-lg text-gray-500 dark:text-gray-400"
               >
-                My Teck Stack
+                Cosmic Code Arsenal
               </motion.h2>
               <motion.div
                 initial={{ opacity: 0, y: 50 }}
