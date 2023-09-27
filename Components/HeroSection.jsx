@@ -55,7 +55,7 @@ const HeroSection = () => {
               </div>
             </motion.div>
 
-            <div className="flex gap-10 flex-col lg:mt-5 mt-0 w-full items-center justify-center md:flex-row text-center md:text-left ">
+            <div className="flex gap-10 flex-col lg:mt-5 mt-10 w-full items-center justify-center md:flex-row text-center md:text-left ">
               <div className="flex flex-1 flex-col mt-5 max-w-3xl items-center text-center">
                 <div className="relative group">
                   <div className="mt-6 absolute -inset-10  transition-all  duration-300 bg-gradient-to-r from-fuchsia-500 via-purple-500 to-purple-500 bg-fuchsia-500 rounded-full blur-3xl dark:opacity-20 opacity-10"></div>
