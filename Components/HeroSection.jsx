@@ -4,17 +4,18 @@ import Image from "next/image";
 import LinkButton from "./LinkButton";
 
 import { motion } from "framer-motion";
+import Typewriter from "typewriter-effect";
 
 const HeroSection = () => {
   return (
     <section id="home" className="w-full rounded-lg ">
       <div
-        className="bg-white top-24 relative dark:bg-[#212121] shadow-custom-sm rounded-xl max-w-2xl lg:max-w-5xl lg:mx-auto mx-4 md:mx-auto sm:mx-auto lg:px-0"
+        className="top-24 relative rounded-xl max-w-2xl lg:max-w-6xl lg:mx-auto mx-4 md:mx-auto sm:mx-auto lg:px-0"
         style={{ zIndex: 1 }}
       >
         <div className="p-2 lg:mx-4 ">
           <div className="lg:p-6 p-3 ">
-            <div className="flex justify-between w-full lg:text-lg md:text-base text-sm">
+            <div className="flex justify-between w-full lg:text-lg md:text-base text-sm text-gray-700 dark:text-gray-300 font-bold transition duration-300 ease-in-out">
               <motion.h1
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: 1, x: 0 }}
@@ -59,12 +60,25 @@ const HeroSection = () => {
                 <div className="relative group">
                   <div className="mt-6 absolute -inset-10  transition-all  duration-300 bg-gradient-to-r from-fuchsia-500 via-purple-500 to-purple-500 bg-fuchsia-500 rounded-full blur-3xl dark:opacity-20 opacity-10"></div>
                   <motion.h1
-                    initial={{ opacity: 0, scale: 2 }}
-                    animate={{ opacity: 1, scale: 1 }}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
                     transition={{ duration: 0.7 }}
-                    className="relative font-bold text-3xl md:text-4xl lg:text-5xl md:mt-0 mt-2  purple_gradient"
+                    className="relative font-bold text-4xl md:text-5xl lg:text-6xl md:mt-0 mt-2 text-gray-800 dark:text-gray-300 transition duration-300 ease-in-out"
                   >
-                    Hussain Nausam
+                    Hello, I am a
+                    <div className="purple_gradient">
+                      <Typewriter
+                        options={{
+                          strings: [
+                            "Frontend Developer",
+                            "Backend Developer",
+                            "Fullstack Developer",
+                          ],
+                          autoStart: true,
+                          loop: true,
+                        }}
+                      />
+                    </div>
                   </motion.h1>
                 </div>
 
@@ -72,7 +86,7 @@ const HeroSection = () => {
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ duration: 2 }}
-                  className="mt-6 tracking-wider lg:text-lg md:text-base text-sm text-gray-500 dark:text-gray-400"
+                  className="mt-6 tracking-wider lg:text-xl md:text-lg text-base text-gray-600 dark:text-gray-400 transition duration-300 ease-in-out"
                 >
                   Greetings, intrepid explorer of the digital cosmos! I am
                   <span className="text-custom_purple font-bold"> Nausam</span>,
@@ -101,7 +115,7 @@ const HeroSection = () => {
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
-                className="md:text-start text-center text-lg text-gray-500 dark:text-gray-400"
+                className="md:text-start text-center text-lg text-gray-700 dark:text-gray-300 font-bold transition duration-300 ease-in-out"
               >
                 Cosmic Code Arsenal
               </motion.h2>
@@ -116,7 +130,7 @@ const HeroSection = () => {
                     // initial={{ opacity: 0, y: 50 }}
                     // animate={{ opacity: 1, y: 0 }}
                     // transition={{ duration: 0.5 }}
-                    className="tech_stack"
+                    className="tech_stack cursor-pointer"
                   >
                     <Image width={30} height={30} src="/icons/html.png" />
                   </motion.div>
@@ -125,7 +139,7 @@ const HeroSection = () => {
                     // initial={{ opacity: 0, y: -50 }}
                     // animate={{ opacity: 1, y: 0 }}
                     // transition={{ duration: 0.5 }}
-                    className="tech_stack"
+                    className="tech_stack cursor-pointer"
                   >
                     <Image width={30} height={30} src="/icons/css.png" />
                   </motion.div>
@@ -134,7 +148,7 @@ const HeroSection = () => {
                     // initial={{ opacity: 0, y: 50 }}
                     // animate={{ opacity: 1, y: 0 }}
                     // transition={{ duration: 0.5 }}
-                    className="tech_stack"
+                    className="tech_stack cursor-pointer"
                   >
                     <Image width={30} height={30} src="/icons/javascript.png" />
                   </motion.div>
@@ -143,7 +157,7 @@ const HeroSection = () => {
                     // initial={{ opacity: 0, y: -50 }}
                     // animate={{ opacity: 1, y: 0 }}
                     // transition={{ duration: 0.5 }}
-                    className="tech_stack"
+                    className="tech_stack cursor-pointer"
                   >
                     <Image width={30} height={30} src="/icons/tailwind.png" />
                   </motion.div>
@@ -152,7 +166,7 @@ const HeroSection = () => {
                     // initial={{ opacity: 0, y: 50 }}
                     // animate={{ opacity: 1, y: 0 }}
                     // transition={{ duration: 0.5 }}
-                    className="tech_stack"
+                    className="tech_stack cursor-pointer"
                   >
                     <Image width={30} height={30} src="/icons/react.png" />
                   </motion.div>
@@ -161,7 +175,7 @@ const HeroSection = () => {
                     // initial={{ opacity: 0, y: -50 }}
                     // animate={{ opacity: 1, y: 0 }}
                     // transition={{ duration: 0.5 }}
-                    className="tech_stack"
+                    className="tech_stack cursor-pointer"
                   >
                     <Image width={30} height={30} src="/icons/nextjs.png" />
                   </motion.div>

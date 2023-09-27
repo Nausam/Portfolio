@@ -1,14 +1,24 @@
+"use client";
+
 import React from "react";
 import ThemeButton from "./ThemeButton";
 import Link from "next/link";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const NavBar = () => {
   return (
-    <nav className="fixed backdrop-blur-xl w-full z-30 pt-4 rounded-lg">
-      <div className="lg:max-w-5xl mx-auto max-2xl px-4 lg:px-0">
-        <div className="flex items-center justify-between shadow-custom-sm bg-white dark:bg-custom_gray dark:border-neutral-700/30 border border-gray-200 rounded-xl p-3 ">
-          <div className="hidden md:block">Portfolio</div>
+    <motion.nav
+      initial={{ opacity: 0, y: -100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.7 }}
+      className="fixed backdrop-blur-md w-full z-30 rounded-lg dark:border-neutral-700/30 border border-gray-200"
+    >
+      <div className="lg:max-w-6xl mx-auto max-2xl px-4 lg:px-0">
+        <div className="flex items-center justify-between rounded-xl p-3 ">
+          <div className="hidden md:block font-bold text-2xl tracking-wider transition duration-300 ease-in-out">
+            <h1>Portfolio</h1>
+          </div>
           <Image
             className="md:hidden block"
             alt="Hamburger menu"
@@ -18,19 +28,31 @@ const NavBar = () => {
           />
 
           <div className="flex gap-8 items-center tracking-wider mx-auto">
-            <Link className="text-gray-500 dark:text-gray-300" href="#home">
+            <Link
+              className="text-gray-700 hover:text-custom_purple dark:hover:text-purple-400 dark:text-gray-300 text-lg hover:scale-110 transition duration-300 ease-in-out"
+              href="#home"
+            >
               Home
             </Link>
 
-            <Link className="text-gray-500 dark:text-gray-300" href="#about">
+            <Link
+              className="text-gray-700 hover:text-custom_purple dark:hover:text-purple-400 dark:text-gray-300 text-lg hover:scale-110 transition duration-300 ease-in-out"
+              href="#about"
+            >
               About
             </Link>
 
-            <Link className="text-gray-500 dark:text-gray-300" href="#projects">
+            <Link
+              className="text-gray-700 hover:text-custom_purple dark:hover:text-purple-400 dark:text-gray-300 text-lg hover:scale-110 transition duration-300 ease-in-out"
+              href="#projects"
+            >
               Projects
             </Link>
 
-            <Link className="text-gray-500 dark:text-gray-300" href="#contact">
+            <Link
+              className="text-gray-700 dark:text-gray-300 text-lg hover:text-custom_purple dark:hover:text-purple-400  hover:scale-110 transition duration-300 ease-in-out"
+              href="#contact"
+            >
               Contact
             </Link>
           </div>
@@ -38,7 +60,7 @@ const NavBar = () => {
           <ThemeButton />
         </div>
       </div>
-    </nav>
+    </motion.nav>
   );
 };
 

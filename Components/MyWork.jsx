@@ -9,15 +9,15 @@ import EmployeeDashboard from "./Projects/EmployeeDashboard";
 const MyWork = () => {
   return (
     <section id="projects" className="w-full rounded-lg">
-      <div className="bg-white top-32 relative dark:bg-[#212121] shadow-custom-sm rounded-xl max-w-2xl lg:max-w-5xl lg:mx-auto mx-4 md:mx-auto sm:mx-auto lg:px-0 ">
+      <div className="top-24 relative rounded-xl max-w-2xl lg:max-w-6xl lg:mx-auto mx-4 md:mx-auto sm:mx-auto lg:px-0 ">
         <div className="p-2 lg:mx-4">
           <div className="lg:p-6 p-3">
             <div className="flex flex-col lg:mt-0 mt-10 w-full items-center md:flex-row text-center md:text-left">
               <div className="flex flex-1 flex-col mt-5 max-w-xl">
-                <h1 className="font-bold text-3xl md:text-3xl lg:text-4xl tracking-wider">
+                <h1 className="font-bold text-3xl md:text-3xl lg:text-4xl tracking-wider text-gray-700 dark:text-gray-300 transition duration-300 ease-in-out">
                   Cosmic Contributions
                 </h1>
-                <p className="mt-6 tracking-wider lg:text-lg md:text-base text-sm text-gray-500 dark:text-gray-400">
+                <p className="mt-6 tracking-wider lg:text-xl md:text-lg text-base text-gray-600 dark:text-gray-400 transition duration-300 ease-in-out">
                   As a full-stack web developer, I've logged countless
                   light-years in the universe of technology. I've mastered the
                   art of harmonizing frontend elegance with backend robustness,
@@ -31,6 +31,7 @@ const MyWork = () => {
             <CosmoGuard />
             <EmployeeDashboard />
           </div>
+          <div className="w-full border mt-14 dark:opacity-5"></div>
         </div>
       </div>
     </section>
