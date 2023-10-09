@@ -7,9 +7,9 @@ const CosmoGuard = () => {
   return (
     <div className="flex md:flex-row flex-col gap-10 mt-20 items-center border-2 p-10 rounded-xl dark:border-custom_purple dark:border-opacity-20">
       <div className="md:hidden sm:block">
-        <h3 className="text-2xl md:text-start text-center tracking-wider font-bold text-gray-700 dark:text-gray-300 transition duration-300 ease-in-out">
+        <h1 className="text-2xl md:text-start text-center tracking-wider font-bold text-gray-700 dark:text-gray-300 transition duration-300 ease-in-out">
           Cosmo Guard
-        </h3>
+        </h1>
         <p className="lg:text-xl md:text-lg text-base text-center md:text-start mt-5 tracking-wider text-gray-600 dark:text-gray-400 transition duration-300 ease-in-out">
           Cosmo Guard is a distinguished private virtual network renowned for
           its exceptional security and a wealth of distinctive features. Your
@@ -57,9 +57,9 @@ const CosmoGuard = () => {
       </div>
 
       <div className="md:block hidden">
-        <h3 className="text-2xl md:text-start text-center tracking-wider font-bold text-gray-700 dark:text-gray-300 transition duration-300 ease-in-out">
+        <h2 className="text-2xl md:text-start text-center tracking-wider font-bold text-gray-700 dark:text-gray-300 transition duration-300 ease-in-out">
           Cosmo Guard
-        </h3>
+        </h2>
         <p className="lg:text-xl md:text-lg text-base text-center md:text-start mt-5 tracking-wider text-gray-600 dark:text-gray-400 transition duration-300 ease-in-out">
           Cosmo Guard is a distinguished private virtual network renowned for
           its exceptional security and a wealth of distinctive features. Your

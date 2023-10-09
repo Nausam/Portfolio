@@ -132,7 +132,12 @@ const HeroSection = () => {
                     // transition={{ duration: 0.5 }}
                     className="tech_stack cursor-pointer"
                   >
-                    <Image width={30} height={30} src="/icons/html.png" />
+                    <Image
+                      width={30}
+                      height={30}
+                      src="/icons/html.png"
+                      alt="Html logo"
+                    />
                   </motion.div>
 
                   <motion.div
@@ -141,7 +146,12 @@ const HeroSection = () => {
                     // transition={{ duration: 0.5 }}
                     className="tech_stack cursor-pointer"
                   >
-                    <Image width={30} height={30} src="/icons/css.png" />
+                    <Image
+                      width={30}
+                      height={30}
+                      src="/icons/css.png"
+                      alt="Css logo"
+                    />
                   </motion.div>
 
                   <motion.div
@@ -150,7 +160,12 @@ const HeroSection = () => {
                     // transition={{ duration: 0.5 }}
                     className="tech_stack cursor-pointer"
                   >
-                    <Image width={30} height={30} src="/icons/javascript.png" />
+                    <Image
+                      width={30}
+                      height={30}
+                      src="/icons/javascript.png"
+                      alt="Javascript logo"
+                    />
                   </motion.div>
 
                   <motion.div
@@ -159,7 +174,12 @@ const HeroSection = () => {
                     // transition={{ duration: 0.5 }}
                     className="tech_stack cursor-pointer"
                   >
-                    <Image width={30} height={30} src="/icons/tailwind.png" />
+                    <Image
+                      width={30}
+                      height={30}
+                      src="/icons/tailwind.png"
+                      alt="Tailwind logo"
+                    />
                   </motion.div>
 
                   <motion.div
@@ -168,7 +188,12 @@ const HeroSection = () => {
                     // transition={{ duration: 0.5 }}
                     className="tech_stack cursor-pointer"
                   >
-                    <Image width={30} height={30} src="/icons/react.png" />
+                    <Image
+                      width={30}
+                      height={30}
+                      src="/icons/react.png"
+                      alt="React logo"
+                    />
                   </motion.div>
 
                   <motion.div
@@ -177,7 +202,12 @@ const HeroSection = () => {
                     // transition={{ duration: 0.5 }}
                     className="tech_stack cursor-pointer"
                   >
-                    <Image width={30} height={30} src="/icons/nextjs.png" />
+                    <Image
+                      width={30}
+                      height={30}
+                      src="/icons/nextjs.png"
+                      alt="Nextjs log"
+                    />
                   </motion.div>
                 </div>
               </motion.div>
