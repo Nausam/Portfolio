@@ -8,7 +8,19 @@ import { motion } from "framer-motion";
 const HeroSection = () => {
   return (
     <section id="home" className="w-full rounded-lg">
-      <div className="top-10 relative rounded-xl max-w-2xl lg:max-w-6xl lg:mx-auto mx-4 md:mx-auto sm:mx-auto lg:px-0">
+      <video
+        autoPlay
+        muted
+        loop
+        className="rotate-180 absolute top-[-285px] w-full h-full object-fit -z-10"
+      >
+        <source src="/videos/blackhole.webm" type="video/webm" />
+      </video>
+
+      <div
+        className="top-14 relative rounded-xl max-w-2xl lg:max-w-6xl lg:mx-auto mx-4 md:mx-auto sm:mx-auto lg:px-0"
+        style={{ zIndex: 1 }}
+      >
         <div className="p-6 lg:mx-4 ">
           <div className="flex gap-10 flex-col lg:mt-5 mt-10 w-full items-center justify-center md:flex-row text-center sm:text-left">
             <div className="flex flex-1 flex-col mt-5 max-w-7xl md:items-start md:text-start">
