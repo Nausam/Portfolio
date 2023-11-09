@@ -26,7 +26,7 @@ const HeroContent = () => {
                 variants={slideInFromLeft(0.3)}
                 className="flex flex-1 flex-col max-w-2xl"
               >
-                <h1 className="font-bold text-5xl lg:text-6xl lg:text-start text-center tracking-wider text-gray-700 dark:text-gray-300 transition duration-300 ease-in-out">
+                <h1 className="font-bold text-4xl md:text-4xl lg:text-6xl lg:text-start text-center tracking-wider text-gray-700 dark:text-gray-300 transition duration-300 ease-in-out">
                   Welcome to my{" "}
                   <span className="purple_gradient">Celestial realm</span>
                 </h1>
