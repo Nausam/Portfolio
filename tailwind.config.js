@@ -21,7 +21,7 @@ module.exports = {
         "custom-sm": "0 0 6px rgba(0, 0, 0, 0.2)",
       },
       screens: {
-        xs: "460px", // Add the 639px screen size
+        ms: "320px",
       },
     },
   },
