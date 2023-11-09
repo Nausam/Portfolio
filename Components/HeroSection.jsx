@@ -36,7 +36,7 @@ const HeroSection = () => {
               <div className="mt-5">
                 <Image
                   alt="Main icons"
-                  src="/images/mainiconsdark.svg"
+                  src="/images/hero_icon_dark.svg"
                   width={400}
                   height={400}
                   objectFit="contain"
