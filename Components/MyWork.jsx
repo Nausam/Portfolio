@@ -9,7 +9,7 @@ import EmployeeDashboard from "./Projects/EmployeeDashboard";
 const MyWork = () => {
   return (
     <section id="projects" className="w-full rounded-lg">
-      <div className="top-24 relative rounded-xl max-w-2xl lg:max-w-6xl lg:mx-auto mx-4 md:mx-auto sm:mx-auto lg:px-0 ">
+      <div className="top-[-250px] relative rounded-xl max-w-2xl lg:max-w-6xl lg:mx-auto mx-4 md:mx-auto sm:mx-auto lg:px-0 ">
         <div className="p-2 lg:mx-4">
           <div className="lg:p-6 p-3">
             <div className="flex flex-col lg:mt-0 mt-10 w-full items-center justify-center md:flex-row text-center">
