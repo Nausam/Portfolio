@@ -12,8 +12,8 @@ const MyWork = () => {
       <div className="top-24 relative rounded-xl max-w-2xl lg:max-w-6xl lg:mx-auto mx-4 md:mx-auto sm:mx-auto lg:px-0 ">
         <div className="p-2 lg:mx-4">
           <div className="lg:p-6 p-3">
-            <div className="flex flex-col lg:mt-0 mt-10 w-full items-center md:flex-row text-center md:text-left">
-              <div className="flex flex-1 flex-col mt-5 max-w-xl">
+            <div className="flex flex-col lg:mt-0 mt-10 w-full items-center justify-center md:flex-row text-center">
+              <div className="flex flex-1 flex-col mt-5 md:max-w-3xl max-w-xl">
                 <h1 className="font-bold text-3xl md:text-3xl lg:text-4xl tracking-wider text-gray-700 dark:text-gray-300 transition duration-300 ease-in-out">
                   Cosmic Contributions
                 </h1>

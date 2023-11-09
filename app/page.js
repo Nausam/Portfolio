@@ -11,7 +11,7 @@ export default function Home() {
       {/* <Design /> */}
       <NavBar />
       <HeroSection />
-      <AboutMe />
+      {/* <AboutMe /> */}
       <MyWork />
       <Footer />
     </section>
