@@ -125,14 +125,14 @@ const NavBar = () => {
           </div>
         </div>
       </motion.nav>
-      <video
+      {/* <video
         autoPlay
         muted
         loop
         className="rotate-180 absolute top-[-280px] w-full h-full object-fit -z-10"
       >
         <source src="/videos/blackhole.webm" type="video/webm" />
-      </video>
+      </video> */}
     </>
   );
 };
