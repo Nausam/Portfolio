@@ -3,20 +3,20 @@ import Link from "next/link";
 
 import LinkButton from "../LinkButton";
 
-const CosmoGuard = () => {
+const WeddingInvitation = () => {
   return (
-    <div className="flex md:flex-row flex-col gap-10 mt-20 items-center border-2 p-10 rounded-xl dark:border-custom_purple dark:border-opacity-20">
+    <div className="flex lg:flex-row flex-col gap-10 mt-20 items-center border-2 p-10 rounded-xl dark:border-custom_purple dark:border-opacity-20">
       <div className="lg:hidden md:block">
         <div className="mb-10 rounded-xl dark:border-neutral-800 border-neutral-300 hover:dark:border-custom_purple transition-all duration-500 ease-in-out shadow-md border p-3 overflow-hidden">
           <Link
-            href="https://cosmo-guard.vercel.app/"
+            href="https://za-wedding.vercel.app/"
             target="_blank"
             className="overflow-hidden rounded-xl cursor-pointer shadow-xl "
           >
             <Image
               className="rounded-xl hover:scale-110 transition duration-500 ease-in-out"
               alt="Cosmo guard image"
-              src="/images/cosmo-guard.png"
+              src="/images/wedding_invitation.png"
               objectFit="fill"
               width={2000}
               height={2000}
@@ -25,7 +25,7 @@ const CosmoGuard = () => {
         </div>
 
         <h1 className="text-2xl lg:text-start text-center tracking-wider font-bold text-gray-700 dark:text-gray-300 transition duration-300 ease-in-out">
-          Cosmo Guard
+          Wedding Invitation
         </h1>
         <p className="lg:text-xl md:text-lg text-base text-center lg:text-start mt-5 tracking-wider text-gray-600 dark:text-gray-400 transition duration-300 ease-in-out">
           Cosmo Guard is a distinguished private virtual network renowned for
@@ -43,12 +43,12 @@ const CosmoGuard = () => {
 
         <div className="w-full flex gap-3 justify-center items-center lg:justify-start mt-10">
           <LinkButton
-            href="https://cosmo-guard.vercel.app/"
+            href="https://za-wedding.vercel.app/"
             target="_blank"
             text="Demo"
           />
           <LinkButton
-            href="https://github.com/Nausam/Cosmo-Guard"
+            href="https://github.com/Nausam/Z-A-Wedding"
             target="_blank"
             text="Source Code"
           />
@@ -57,14 +57,14 @@ const CosmoGuard = () => {
 
       <div className="hidden lg:block rounded-xl dark:border-neutral-800 border-neutral-300 hover:dark:border-custom_purple transition-all duration-500 ease-in-out shadow-md border p-3 overflow-hidden">
         <Link
-          href="https://cosmo-guard.vercel.app/"
+          href="https://za-wedding.vercel.app/"
           target="_blank"
           className="overflow-hidden rounded-xl cursor-pointer shadow-xl "
         >
           <Image
             className="rounded-xl hover:scale-110 transition duration-500 ease-in-out"
             alt="Cosmo guard image"
-            src="/images/cosmo-guard.png"
+            src="/images/wedding_invitation.png"
             objectFit="fill"
             width={2000}
             height={2000}
@@ -74,7 +74,7 @@ const CosmoGuard = () => {
 
       <div className="lg:block hidden">
         <h2 className="text-2xl md:text-start text-center tracking-wider font-bold text-gray-700 dark:text-gray-300 transition duration-300 ease-in-out">
-          Cosmo Guard
+          Wedding Invitation
         </h2>
         <p className="lg:text-xl md:text-lg text-base text-center md:text-start mt-5 tracking-wider text-gray-600 dark:text-gray-400 transition duration-300 ease-in-out">
           Cosmo Guard is a distinguished private virtual network renowned for
@@ -92,12 +92,12 @@ const CosmoGuard = () => {
 
         <div className="w-full flex gap-3 justify-center items-center md:justify-start mt-10">
           <LinkButton
-            href="https://cosmo-guard.vercel.app/"
+            href="https://za-wedding.vercel.app/"
             target="_blank"
             text="Demo"
           />
           <LinkButton
-            href="https://github.com/Nausam/Cosmo-Guard"
+            href="https://github.com/Nausam/Z-A-Wedding"
             target="_blank"
             text="Source Code"
           />
@@ -107,4 +107,4 @@ const CosmoGuard = () => {
   );
 };
 
-export default CosmoGuard;
+export default WeddingInvitation;

@@ -5,6 +5,7 @@ import LinkButton from "./LinkButton";
 import Projects from "./Projects/CosmoGuard";
 import CosmoGuard from "./Projects/CosmoGuard";
 import EmployeeDashboard from "./Projects/EmployeeDashboard";
+import WeddingInvitation from "./Projects/WeddingInvitation";
 
 const MyWork = () => {
   return (
@@ -30,6 +31,7 @@ const MyWork = () => {
 
             <CosmoGuard />
             <EmployeeDashboard />
+            <WeddingInvitation />
           </div>
           <div className="w-full border mt-14 dark:opacity-5"></div>
         </div>
