@@ -17,7 +17,7 @@ const HeroSection = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="relative flex flex-col h-[1000px] w-full"
+      className="relative flex flex-col h-[800px] w-full"
       id="about-me"
     >
       <motion.div
@@ -29,7 +29,7 @@ const HeroSection = () => {
           autoPlay
           muted
           loop
-          className="rotate-180 absolute lg:top-[-435px] top-[-490px] h-full w-full left-0 z-[-1] object-cover"
+          className="rotate-180 absolute lg:top-[-335px] top-[-360px] h-full w-full left-0 z-[-1] object-cover"
         >
           <source src="/videos/blackhole.webm" type="video/webm" />
         </video>

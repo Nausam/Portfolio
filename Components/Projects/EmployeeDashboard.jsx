@@ -16,7 +16,7 @@ const EmployeeDashboard = () => {
             <Image
               className="rounded-xl hover:scale-110 transition duration-500 ease-in-out"
               alt="Cosmo guard image"
-              src="/images/cosmo-guard.png"
+              src="/images/employee-dashboard.png"
               objectFit="fill"
               width={2000}
               height={2000}
@@ -28,14 +28,15 @@ const EmployeeDashboard = () => {
           Employee Dashboard
         </h1>
         <p className="lg:text-xl md:text-lg text-base text-center lg:text-start mt-5 tracking-wider text-gray-600 dark:text-gray-400 transition duration-300 ease-in-out">
-          Cosmo Guard is a distinguished private virtual network renowned for
-          its exceptional security and a wealth of distinctive features. Your
-          online privacy and data protection are our top priorities.
+          Full-Stack Employee Dashboard offers a user-friendly platform for
+          quick access to employee details and streamlined leave requests.
+          Enhancing efficiency and transparency.
         </p>
 
         <div className="w-full flex flex-wrap gap-3 items-center justify-center lg:justify-start mt-5 text-gray-700 dark:text-gray-300 transition duration-300 ease-in-out tracking-wider">
           <div className="border border-gray-500 p-2 rounded-xl">React</div>
           <div className="border border-gray-500 p-2 rounded-xl">Next JS</div>
+          <div className="border border-gray-500 p-2 rounded-xl">Next Auth</div>
           <div className="border border-gray-500 p-2 rounded-xl">
             Tawilwind CSS
           </div>
@@ -63,14 +64,15 @@ const EmployeeDashboard = () => {
           Employee Dashboard
         </h2>
         <p className="lg:text-xl md:text-lg text-base text-center md:text-start mt-5 tracking-wider text-gray-600 dark:text-gray-400 transition duration-300 ease-in-out">
-          Cosmo Guard is a distinguished private virtual network renowned for
-          its exceptional security and a wealth of distinctive features. Your
-          online privacy and data protection are our top priorities.
+          Full-Stack Employee Dashboard offers a user-friendly platform for
+          quick access to employee details and streamlined leave requests.
+          Enhancing efficiency and transparency.
         </p>
 
-        <div className="w-full flex gap-3 items-center justify-center md:justify-start mt-5 text-gray-600 dark:text-gray-400 transition duration-300 ease-in-out tracking-wider">
+        <div className="w-full flex flex-wrap gap-3 items-center justify-center md:justify-start mt-5 text-gray-600 dark:text-gray-400 transition duration-300 ease-in-out tracking-wider">
           <div className="border border-gray-500 p-2 rounded-xl">React</div>
           <div className="border border-gray-500 p-2 rounded-xl">Next JS</div>
+          <div className="border border-gray-500 p-2 rounded-xl">Next Auth</div>
           <div className="border border-gray-500 p-2 rounded-xl">
             Tawilwind CSS
           </div>
@@ -99,7 +101,7 @@ const EmployeeDashboard = () => {
           <Image
             className="rounded-xl hover:scale-110 transition duration-500 ease-in-out"
             alt="Cosmo guard image"
-            src="/images/cosmo-guard.png"
+            src="/images/employee-dashboard.png"
             objectFit="fill"
             width={2000}
             height={2000}

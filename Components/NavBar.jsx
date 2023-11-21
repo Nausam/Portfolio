@@ -24,7 +24,7 @@ const NavBar = () => {
       <div className="lg:max-w-6xl mx-auto max-2xl px-4 lg:px-0">
         <div className="flex items-center justify-between rounded-xl p-3 ">
           <div className="hidden md:block font-bold text-2xl tracking-wider transition duration-300 ease-in-out">
-            <h1>Portfolio</h1>
+            <h1>Nausam</h1>
           </div>
 
           <Image
@@ -120,7 +120,9 @@ const NavBar = () => {
           </div>
 
           {/* <div className="flex items-center gap-x-3"></div> */}
-          <ThemeButton />
+          <div className="hidden md:block font-bold text-2xl tracking-wider transition duration-300 ease-in-out">
+            <h3>Portfolio</h3>
+          </div>
         </div>
       </div>
     </motion.nav>

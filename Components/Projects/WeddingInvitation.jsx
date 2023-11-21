@@ -33,7 +33,7 @@ const WeddingInvitation = () => {
           online privacy and data protection are our top priorities.
         </p>
 
-        <div className="w-full flex gap-3 items-center justify-center lg:justify-start mt-5 text-gray-700 dark:text-gray-300 transition duration-300 ease-in-out tracking-wider">
+        <div className="w-full flex flex-wrap gap-3 items-center justify-center lg:justify-start mt-5 text-gray-700 dark:text-gray-300 transition duration-300 ease-in-out tracking-wider">
           <div className="border border-gray-500 p-2 rounded-xl">React</div>
           <div className="border border-gray-500 p-2 rounded-xl">Next JS</div>
           <div className="border border-gray-500 p-2 rounded-xl">
@@ -82,7 +82,7 @@ const WeddingInvitation = () => {
           online privacy and data protection are our top priorities.
         </p>
 
-        <div className="w-full flex gap-3 items-center justify-center md:justify-start mt-5 text-gray-600 dark:text-gray-400 transition duration-300 ease-in-out tracking-wider">
+        <div className="w-full flex flex-wrap gap-3 items-center justify-center md:justify-start mt-5 text-gray-600 dark:text-gray-400 transition duration-300 ease-in-out tracking-wider">
           <div className="border border-gray-500 p-2 rounded-xl">React</div>
           <div className="border border-gray-500 p-2 rounded-xl">Next JS</div>
           <div className="border border-gray-500 p-2 rounded-xl">
