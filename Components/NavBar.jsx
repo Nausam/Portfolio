@@ -51,7 +51,7 @@ const NavBar = () => {
                   <li>
                     <Link
                       className="text-gray-700 hover:text-custom_purple dark:hover:text-purple-400 dark:text-gray-300 text-md hover:scale-110 transition duration-300 ease-in-out"
-                      href="#home"
+                      href="#about"
                     >
                       About
                     </Link>

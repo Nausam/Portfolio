@@ -4,7 +4,7 @@ import CustomButton from "./CustomButton";
 const AboutMe = () => {
   return (
     <section id="about" className="w-full rounded-lg">
-      <div className="top-28 relative rounded-xl max-w-2xl lg:max-w-6xl lg:mx-auto mx-4 md:mx-auto sm:mx-auto lg:px-0 ">
+      <div className="rounded-xl max-w-2xl lg:max-w-6xl lg:mx-auto mx-4 md:mx-auto sm:mx-auto lg:px-0 ">
         <div className="p-2 lg:mx-4">
           <div className="lg:p-6 p-3">
             <div className="flex sm:flex-row flex-col justify-between items-center gap-10">
@@ -37,12 +37,12 @@ const AboutMe = () => {
               </div>
             </div>
 
-            <div className="w-full flex gap-3 justify-center items-center sm:justify-start mt-10">
+            {/* <div className="w-full flex gap-3 justify-center items-center sm:justify-start mt-10">
               <CustomButton href="#" text="Contact" />
               <CustomButton href="#" text="Download CV" />
-            </div>
+            </div> */}
 
-            <div className="flex sm:flex-row flex-col justify-between items-center gap-10">
+            {/* <div className="flex sm:flex-row flex-col justify-between items-center gap-10">
               <div className="flex flex-1 flex-col mt-28 max-w-xl">
                 <h1 className="font-bold text-3xl md:text-3xl lg:text-4xl md:text-start text-center tracking-wider text-gray-700 dark:text-gray-300 transition duration-300 ease-in-out">
                   Mission Statement
@@ -64,8 +64,8 @@ const AboutMe = () => {
                   className="rounded-full md:mt-0"
                 />
               </div>
-            </div>
-            <div className="w-full border mt-14 dark:opacity-5"></div>
+            </div> */}
+            {/* <div className="w-full border mt-14 dark:opacity-5"></div> */}
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="flex flex-col lg:mt-0 mt-10 w-full items-center md:flex-row text-center ">
               <div className="flex flex-1 flex-col mt-5 max-w-full">
                 <h1 className="font-bold text-center text-3xl md:text-3xl lg:text-4xl tracking-wider">
-                  Don't be shy! Hit me...
+                  Don't be shy! Hit me up...
                 </h1>
                 <p className="mt-6 tracking-wider lg:text-lg md:text-base text-sm text-gray-500 dark:text-gray-400 text-center">
                   Ready to collaborate on a cosmic coding venture? Feel free to
