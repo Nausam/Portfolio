@@ -1,6 +1,6 @@
 import CosmoGuard from "./Projects/CosmoGuard";
 import EmployeeDashboard from "./Projects/EmployeeDashboard";
-import WeddingInvitation from "./Projects/WeddingInvitation";
+import RideFlex from "./Projects/RideFlex";
 
 const MyWork = () => {
   return (
@@ -26,7 +26,7 @@ const MyWork = () => {
 
             <CosmoGuard />
             <EmployeeDashboard />
-            <WeddingInvitation />
+            <RideFlex />
           </div>
           <div className="w-full border mt-14 dark:opacity-5"></div>
         </div>

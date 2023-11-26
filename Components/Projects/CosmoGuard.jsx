@@ -7,19 +7,19 @@ const CosmoGuard = () => {
   return (
     <div className="flex md:flex-row flex-col gap-10 mt-20 items-center border-2 p-10 rounded-xl dark:border-custom_purple dark:border-opacity-20">
       <div className="lg:hidden md:block">
-        <div className="mb-10 rounded-xl dark:border-neutral-800 border-neutral-300 hover:dark:border-custom_purple transition-all duration-500 ease-in-out shadow-md border p-3 overflow-hidden">
+        <div className="mb-10 rounded-xl dark:border-neutral-800 border-neutral-300 hover:dark:border-custom_purple transition-all duration-500 ease-in-out shadow-md border p-3 overflow-hidden ">
           <Link
             href="https://cosmo-guard.vercel.app/"
             target="_blank"
-            className="overflow-hidden rounded-xl cursor-pointer shadow-xl "
+            className="overflow-hidden rounded-xl cursor-pointer shadow-xl mx-auto"
           >
             <Image
-              className="rounded-xl hover:scale-110 transition duration-500 ease-in-out"
+              className="rounded-xl hover:scale-110 transition duration-500 ease-in-out mx-auto"
               alt="Cosmo guard image"
               src="/images/cosmo-guard.png"
               objectFit="fill"
-              width={2000}
-              height={2000}
+              width={300}
+              height={300}
             />
           </Link>
         </div>
@@ -66,8 +66,8 @@ const CosmoGuard = () => {
             alt="Cosmo guard image"
             src="/images/cosmo-guard.png"
             objectFit="fill"
-            width={2000}
-            height={2000}
+            width={800}
+            height={800}
           />
         </Link>
       </div>

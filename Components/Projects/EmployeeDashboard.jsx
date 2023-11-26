@@ -18,8 +18,8 @@ const EmployeeDashboard = () => {
               alt="Cosmo guard image"
               src="/images/employee-dashboard.png"
               objectFit="fill"
-              width={2000}
-              height={2000}
+              width={300}
+              height={300}
             />
           </Link>
         </div>
@@ -103,8 +103,8 @@ const EmployeeDashboard = () => {
             alt="Cosmo guard image"
             src="/images/employee-dashboard.png"
             objectFit="fill"
-            width={2000}
-            height={2000}
+            width={800}
+            height={800}
           />
         </Link>
       </div>
