@@ -14,7 +14,7 @@ const EmployeeDashboard = () => {
             className="overflow-hidden rounded-xl cursor-pointer shadow-xl "
           >
             <Image
-              className="rounded-xl hover:scale-110 transition duration-500 ease-in-out"
+              className="rounded-xl hover:scale-110 transition duration-500 ease-in-out mx-auto"
               alt="Cosmo guard image"
               src="/images/employee-dashboard.png"
               objectFit="fill"
