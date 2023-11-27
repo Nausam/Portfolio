@@ -47,6 +47,7 @@ const MyWork = () => {
                 gitImage="/icons/git.svg"
                 gitWidth={30}
                 gitHeight={30}
+                index={0}
               />
 
               <ProjectCard
@@ -65,6 +66,7 @@ const MyWork = () => {
                 gitImage="/icons/git.svg"
                 gitWidth={30}
                 gitHeight={30}
+                index={1}
               />
 
               <ProjectCard
@@ -83,6 +85,7 @@ const MyWork = () => {
                 gitImage="/icons/git.svg"
                 gitWidth={30}
                 gitHeight={30}
+                index={2}
               />
             </div>
 
