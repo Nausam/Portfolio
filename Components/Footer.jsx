@@ -6,10 +6,10 @@ const Footer = () => {
           <div className="lg:p-6 p-3">
             <div className="flex flex-col lg:mt-0 mt-10 w-full items-center md:flex-row text-center ">
               <div className="flex flex-1 flex-col mt-5 max-w-full">
-                <h1 className="font-bold text-center text-3xl md:text-3xl lg:text-4xl tracking-wider">
+                <h1 className="font-bold text-center text-3xl md:text-3xl lg:text-4xl tracking-wider text-gray-300">
                   Don't be shy! Hit me up...
                 </h1>
-                <p className="mt-6 tracking-wider lg:text-lg md:text-base text-sm text-gray-500 dark:text-gray-400 text-center">
+                <p className="mt-6 tracking-wider lg:text-lg md:text-base text-sm text-gray-400 text-center">
                   Ready to collaborate on a cosmic coding venture? Feel free to
                   reach out to me at <strong>nausam.hussain@gamil.com</strong>.
                   Let's join forces and build the future of the digital universe
@@ -18,7 +18,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="flex items-center text-center justify-center gap-5 bg-white dark:bg-transparent mt-3 mb-4 rounded-xl dark:border-neutral-800 shadow-md dark:border p-7 tracking-wider ">
+            <div className="flex text-gray-400 items-center text-center justify-center gap-5 bg-transparent mt-3 mb-4 rounded-xl border-neutral-800 shadow-md border p-7 tracking-wider ">
               <div>Copyright © 2023. Hussain Nausam. All rights reserved</div>
             </div>
           </div>

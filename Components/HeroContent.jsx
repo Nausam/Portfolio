@@ -15,7 +15,7 @@ const HeroContent = () => {
     <motion.section
       initial="hidden"
       animate="visible"
-      className="w-full h-full rounded-lg"
+      className="w-full rounded-lg"
     >
       <div className="top-40 relative rounded-xl max-w-2xl lg:max-w-6xl lg:mx-auto mx-4 md:mx-auto sm:mx-auto lg:px-0 ">
         <div className="p-2 lg:mx-4">

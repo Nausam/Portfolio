@@ -6,7 +6,6 @@ import Image from "next/image";
 import { useState } from "react";
 
 import { motion } from "framer-motion";
-import ThemeButton from "./ThemeButton";
 
 const NavBar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -19,11 +18,11 @@ const NavBar = () => {
       initial={{ opacity: 0, y: -100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.7 }}
-      className="fixed backdrop-blur-md w-full z-30 rounded-lg dark:border-neutral-700/30 border border-gray-200"
+      className="fixed backdrop-blur-md w-full z-30 rounded-lg border-neutral-700/30 border"
     >
       <div className="lg:max-w-6xl mx-auto max-2xl px-4 lg:px-0">
         <div className="flex items-center justify-between rounded-xl p-3 ">
-          <div className="hidden md:block font-bold text-2xl tracking-wider transition duration-300 ease-in-out">
+          <div className="hidden md:block font-bold text-2xl tracking-wider transition duration-300 ease-in-out text-white">
             <h1>Nausam</h1>
           </div>
 
@@ -43,14 +42,14 @@ const NavBar = () => {
               transition={{ duration: 0.3 }}
               className="absolute top-5 -left-5 p-10"
             >
-              <div className="bg-gray-200 dark:bg-gray-800 p-5 rounded-lg flex flex-col items-center shadow-xl">
+              <div className="bg-gray-800 p-5 rounded-lg flex flex-col items-center shadow-xl">
                 <div className="font-bold text-xl tracking-wider transition duration-300 ease-in-out purple_gradient">
                   <h1>Portfolio</h1>
                 </div>
                 <ul className="flex flex-col gap-3 mt-3">
                   <li>
                     <Link
-                      className="text-gray-700 hover:text-custom_purple dark:hover:text-purple-400 dark:text-gray-300 text-md hover:scale-110 transition duration-300 ease-in-out"
+                      className="hover:text-purple-400 text-gray-300 text-md hover:scale-110 transition duration-300 ease-in-out"
                       href="#home"
                     >
                       home
@@ -58,7 +57,7 @@ const NavBar = () => {
                   </li>
                   <li>
                     <Link
-                      className="text-gray-700 hover:text-custom_purple dark:hover:text-purple-400 dark:text-gray-300 text-md hover:scale-110 transition duration-300 ease-in-out"
+                      className="hover:text-purple-400 text-gray-300 text-md hover:scale-110 transition duration-300 ease-in-out"
                       href="#about"
                     >
                       About
@@ -66,7 +65,7 @@ const NavBar = () => {
                   </li>
                   <li>
                     <Link
-                      className="text-gray-700 hover:text-custom_purple dark:hover:text-purple-400 dark:text-gray-300 text-md hover:scale-110 transition duration-300 ease-in-out"
+                      className="hover:text-purple-400 text-gray-300 text-md hover:scale-110 transition duration-300 ease-in-out"
                       href="#projects"
                     >
                       Projects
@@ -74,7 +73,7 @@ const NavBar = () => {
                   </li>
                   <li>
                     <Link
-                      className="text-gray-700 dark:text-gray-300 text-md hover:text-custom_purple dark:hover:text-purple-400  hover:scale-110 transition duration-300 ease-in-out"
+                      className="hover:text-purple-400 text-gray-300 text-md hover:scale-110 transition duration-300 ease-in-out"
                       href="#contact"
                     >
                       Contact
@@ -90,28 +89,28 @@ const NavBar = () => {
           <div className="md:flex hidden items-center justify-center border border-[#7042f861] bg-[#0300145e] p-2 rounded-full px-5">
             <div className="flex gap-8 items-center tracking-wider mx-auto">
               <Link
-                className="text-gray-700 hover:text-custom_purple dark:hover:text-purple-400 dark:text-gray-300 text-lg hover:scale-110 transition duration-300 ease-in-out"
+                className="hover:text-purple-400 text-gray-300 text-md hover:scale-110 transition duration-300 ease-in-out"
                 href="#home"
               >
                 Home
               </Link>
 
               <Link
-                className="text-gray-700 hover:text-custom_purple dark:hover:text-purple-400 dark:text-gray-300 text-lg hover:scale-110 transition duration-300 ease-in-out"
+                className="hover:text-purple-400 text-gray-300 text-md hover:scale-110 transition duration-300 ease-in-out"
                 href="#about"
               >
                 About
               </Link>
 
               <Link
-                className="text-gray-700 hover:text-custom_purple dark:hover:text-purple-400 dark:text-gray-300 text-lg hover:scale-110 transition duration-300 ease-in-out"
+                className="hover:text-purple-400 text-gray-300 text-md hover:scale-110 transition duration-300 ease-in-out"
                 href="#projects"
               >
                 Projects
               </Link>
 
               <Link
-                className="text-gray-700 dark:text-gray-300 text-lg hover:text-custom_purple dark:hover:text-purple-400  hover:scale-110 transition duration-300 ease-in-out"
+                className="hover:text-purple-400 text-gray-300 text-md hover:scale-110 transition duration-300 ease-in-out"
                 href="#contact"
               >
                 Contact
@@ -119,8 +118,7 @@ const NavBar = () => {
             </div>
           </div>
 
-          {/* <div className="flex items-center gap-x-3"></div> */}
-          <div className="hidden md:block font-bold text-2xl tracking-wider transition duration-300 ease-in-out">
+          <div className="hidden md:block font-bold text-2xl tracking-wider transition duration-300 ease-in-out text-white">
             <h3>Portfolio</h3>
           </div>
         </div>
