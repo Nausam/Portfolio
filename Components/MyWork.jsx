@@ -1,7 +1,10 @@
+import Image from "next/image";
+import LinkButton from "./LinkButton";
 import CosmoGuard from "./Projects/CosmoGuard";
 import EmployeeDashboard from "./Projects/EmployeeDashboard";
 import RideFlex from "./Projects/RideFlex";
 import { Reveal } from "./Reveal";
+import ProjectCard from "./ProjectCard";
 
 const MyWork = () => {
   return (
@@ -27,9 +30,65 @@ const MyWork = () => {
               </Reveal>
             </div>
 
-            <CosmoGuard />
+            <div className="flex w-full items-center justify-center flex-wrap gap-8 mt-14">
+              <ProjectCard
+                title="Cosmo Guard"
+                description=" Cosmo Guard is a distinguished private virtual network renowned for
+                its exceptional security and a wealth of distinctive features. Your
+                online privacy and data protection are our top priorities."
+                image="/images/cosmo-guard.png"
+                width={210}
+                height={210}
+                demoLink="https://cosmo-guard.vercel.app/"
+                gitLink="https://github.com/Nausam/Cosmo-Guard"
+                demoImage="/icons/link.svg"
+                demoWidth={30}
+                demoHeight={30}
+                gitImage="/icons/git.svg"
+                gitWidth={30}
+                gitHeight={30}
+              />
+
+              <ProjectCard
+                title="Employee Dashboard"
+                description="Full-Stack Employee Dashboard offers a user-friendly platform for
+                quick access to employee details and streamlined leave requests.
+                Enhancing efficiency and transparency."
+                image="/images/employee-dashboard.png"
+                width={250}
+                height={250}
+                demoLink="https://employee-dashboard-alpha.vercel.app/"
+                gitLink="https://github.com/Nausam/Employee-Dashboard"
+                demoImage="/icons/link.svg"
+                demoWidth={30}
+                demoHeight={30}
+                gitImage="/icons/git.svg"
+                gitWidth={30}
+                gitHeight={30}
+              />
+
+              <ProjectCard
+                title="RideFlex"
+                description="Full-Stack Employee Dashboard offers a user-friendly platform for
+                quick access to employee details and streamlined leave requests.
+                Enhancing efficiency and transparency."
+                image="/images/ride-flex.png"
+                width={210}
+                height={210}
+                demoLink="https://ride-flex.vercel.app/"
+                gitLink="https://github.com/Nausam/RideFlex"
+                demoImage="/icons/link.svg"
+                demoWidth={30}
+                demoHeight={30}
+                gitImage="/icons/git.svg"
+                gitWidth={30}
+                gitHeight={30}
+              />
+            </div>
+
+            {/* <CosmoGuard />
             <EmployeeDashboard />
-            <RideFlex />
+            <RideFlex /> */}
           </div>
           <div className="w-full border mt-14 dark:opacity-5"></div>
         </div>

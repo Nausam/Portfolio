@@ -10,7 +10,7 @@ const AboutMe = () => {
           <div className="lg:p-6 p-3">
             <div className="flex md:flex-row flex-col justify-between items-center gap-10">
               <Reveal>
-                <div className="md:mt-5 mt-28">
+                <div className="md:mt-5 mt-28 ">
                   <Image
                     alt="Profile Image"
                     width={250}
