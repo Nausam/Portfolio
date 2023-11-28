@@ -33,9 +33,7 @@ const MyWork = () => {
             <div className="flex w-full items-center justify-center flex-wrap gap-8 mt-14">
               <ProjectCard
                 title="Cosmo Guard"
-                description=" Cosmo Guard is a distinguished private virtual network renowned for
-                its exceptional security and a wealth of distinctive features. Your
-                online privacy and data protection are our top priorities."
+                description="Cosmo Guard is a landing page for secure online experiences. Intuitive interface, clear features, and easy sign-up. Strengthening privacy with a seamless, user-friendly solution for safer internet browsing."
                 image="/images/cosmo-guard.png"
                 width={210}
                 height={210}
@@ -71,9 +69,7 @@ const MyWork = () => {
 
               <ProjectCard
                 title="RideFlex"
-                description="Full-Stack Employee Dashboard offers a user-friendly platform for
-                quick access to employee details and streamlined leave requests.
-                Enhancing efficiency and transparency."
+                description="RideFlex is a interactive Bike rental platform for easy motorbike exploration. Click on bikes to dynamically change images. Responsive and engaging, simplifying discovery and booking of the perfect ride."
                 image="/images/ride-flex.png"
                 width={210}
                 height={210}
